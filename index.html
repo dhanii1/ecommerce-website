@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#f5f4ed">
+    <meta name="description" content="RuangKerja menyediakan aksesori meja belajar dan kerja untuk membantu ruangmu terasa lebih nyaman dan rapi.">
+    <title>RuangKerja — Teman Meja Produktifmu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navigasi utama">
+            <a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">r.</span> ruangkerja</a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#produk">Produk</a></li>
+                <li><a href="#tentang">Tentang</a></li>
+            </ul>
+            <button class="cart-button" type="button" aria-label="Keranjang belanja">
+                <span aria-hidden="true">Bag</span>
+                <span class="cart-count" id="cartCount" aria-live="polite">0</span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span></span> Bikin ruangmu jadi lebih nyaman</p>
+                    <h1>Meja rapi,<br><em>ide mengalir.</em></h1>
+                    <p class="hero-description">
+                        Teman kecil untuk hari-hari penuh ide. Temukan aksesori meja belajar
+                        dan kerja yang bikin kamu betah berkarya.
+                    </p>
+                    <a class="button button-dark" href="#produk">Jelajahi produk <span aria-hidden="true">↘</span></a>
+                    <div class="hero-note"><span aria-hidden="true">✳</span> Pilihan sederhana, guna luar biasa.</div>
+                </div>
+                <div class="hero-visual" aria-label="Ilustrasi meja kerja dengan laptop dan tanaman">
+                    <div class="sun-shape"></div>
+                    <div class="plant" aria-hidden="true"><span></span><i></i><b></b></div>
+                    <div class="desk-lamp" aria-hidden="true"><span></span><i></i><b></b></div>
+                    <div class="laptop" aria-hidden="true"><div>r.</div></div>
+                    <div class="mug" aria-hidden="true"><span></span></div>
+                    <div class="desk"></div>
+                    <span class="visual-caption">YOUR LITTLE WORKSPACE</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits" aria-label="Keunggulan RuangKerja">
+            <div class="container benefits-row">
+                <p><span aria-hidden="true">✳</span> Pilihan terkurasi</p>
+                <p><span aria-hidden="true">↗</span> Harga ramah pelajar</p>
+                <p><span aria-hidden="true">♡</span> Dibuat untuk keseharian</p>
+            </div>
+        </section>
+
+        <section id="produk" class="products-section section">
+            <div class="container">
+                <div class="section-top">
+                    <div>
+                        <p class="eyebrow">Koleksi RuangKerja</p>
+                        <h2>Barang kecil, <em>beda besar.</em></h2>
+                    </div>
+                    <p class="section-description">Temukan teman baru untuk meja belajar atau ruang kerjamu.</p>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-art art-stand">
+                            <span class="product-badge">Favorit</span>
+                            <span class="product-emoji" aria-hidden="true">💻</span>
+                            <span class="art-label">ERGONOMIC / 01</span>
+                        </div>
+                        <div class="product-info">
+                            <div><p class="product-category">Kenyamanan</p><h3>Stand Laptop</h3></div>
+                            <p class="price">Rp89.000</p>
+                        </div>
+                        <p class="product-description">Biar posisi layar lebih nyaman dan meja terasa lega.</p>
+                        <button class="add-button" type="button" data-product="Stand Laptop">Tambah ke tas <span aria-hidden="true">＋</span></button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-art art-mousepad">
+                            <span class="product-emoji" aria-hidden="true">🖱️</span>
+                            <span class="art-label">SOFT TOUCH / 02</span>
+                        </div>
+                        <div class="product-info">
+                            <div><p class="product-category">Aksesori</p><h3>Mousepad</h3></div>
+                            <p class="price">Rp35.000</p>
+                        </div>
+                        <p class="product-description">Permukaan halus untuk menemani setiap klik.</p>
+                        <button class="add-button" type="button" data-product="Mousepad">Tambah ke tas <span aria-hidden="true">＋</span></button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-art art-lamp">
+                            <span class="product-badge">Pilihan kami</span>
+                            <span class="product-emoji" aria-hidden="true">💡</span>
+                            <span class="art-label">WARM LIGHT / 03</span>
+                        </div>
+                        <div class="product-info">
+                            <div><p class="product-category">Penerangan</p><h3>Lampu Meja USB</h3></div>
+                            <p class="price">Rp59.000</p>
+                        </div>
+                        <p class="product-description">Cahaya hangat untuk malam yang penuh inspirasi.</p>
+                        <button class="add-button" type="button" data-product="Lampu Meja USB">Tambah ke tas <span aria-hidden="true">＋</span></button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-art art-cable">
+                            <span class="product-emoji" aria-hidden="true">🔌</span>
+                            <span class="art-label">TIDY CABLE / 04</span>
+                        </div>
+                        <div class="product-info">
+                            <div><p class="product-category">Organisasi</p><h3>Pengatur Kabel</h3></div>
+                            <p class="price">Rp15.000</p>
+                        </div>
+                        <p class="product-description">Kabel rapi, pikiran pun terasa lebih ringan.</p>
+                        <button class="add-button" type="button" data-product="Pengatur Kabel">Tambah ke tas <span aria-hidden="true">＋</span></button>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-art art-notebook">
+                            <span class="product-emoji" aria-hidden="true">📓</span>
+                            <span class="art-label">IDE BOOK / 05</span>
+                        </div>
+                        <div class="product-info">
+                            <div><p class="product-category">Alat tulis</p><h3>Notebook</h3></div>
+                            <p class="price">Rp25.000</p>
+                        </div>
+                        <p class="product-description">Simpan ide-ide bagus sebelum lupa.</p>
+                        <button class="add-button" type="button" data-product="Notebook">Tambah ke tas <span aria-hidden="true">＋</span></button>
+                    </article>
+                </div>
+                <p class="cart-status" id="cartStatus" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section id="tentang" class="about-section">
+            <div class="container about-panel">
+                <div class="about-mark" aria-hidden="true">r.</div>
+                <div>
+                    <p class="eyebrow">Sedikit tentang kami</p>
+                    <h2>Ruang nyaman,<br><em>karya bertumbuh.</em></h2>
+                </div>
+                <p class="about-copy">
+                    RuangKerja adalah konsep toko sederhana untuk aksesori meja belajar dan kerja.
+                    Semua produk dan harga pada halaman ini merupakan contoh untuk keperluan tugas.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-row">
+            <a class="brand" href="#home"><span class="brand-icon" aria-hidden="true">r.</span> ruangkerja</a>
+            <p>Demo toko online untuk tugas pembelajaran · 2026</p>
+            <a href="#home">Kembali ke atas ↑</a>
+        </div>
+    </footer>
+
+    <script>
+        const cartCount = document.querySelector("#cartCount");
+        const cartStatus = document.querySelector("#cartStatus");
+        let itemCount = 0;
+
+        document.querySelectorAll(".add-button").forEach((button) => {
+            button.addEventListener("click", () => {
+                itemCount += 1;
+                cartCount.textContent = itemCount;
+                cartStatus.textContent = `${button.dataset.product} ditambahkan ke tas. Total ${itemCount} barang.`;
+            });
+        });
+    </script>
+</body>
+</html>
